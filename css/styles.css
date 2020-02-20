@@ -10,3 +10,32 @@ body {
   color: rebeccapurple;
   font-size: 16px;
 }
+
+.bottom-nav {
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-nav__button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: font-size 0.3s, background-color 0.1s ease-in-out;
+}
+
+.bottom-nav__button:hover {
+  background-color: lightblue;
+  font-size: 2.5rem;
+}
+
+.bottom-nav__button--active {
+  background-color: lightcoral;
+}
