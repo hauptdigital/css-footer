@@ -108,3 +108,4 @@ dist
 .prettierrc
 .now
 .vscode
+.src
