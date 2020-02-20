@@ -35,6 +35,6 @@ body {
   background-color: lightblue;
 }
 
-.active {
+.bottom-nav__button--active {
   background-color: lightcoral;
 }
