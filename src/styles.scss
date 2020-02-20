@@ -1,4 +1,8 @@
-/* sourceMappingURL=css.map */
+$color-primary: rebeccapurple;
+$bg-color-primary: floralwhite;
+$bg-color-secondary: whitesmoke;
+$btn-color-hover: lightblue;
+$btn-color-active: lightcoral;
 
 *,
 *::after,
@@ -8,13 +12,13 @@
 
 body {
   margin: 0;
-  background-color: floralwhite;
-  color: rebeccapurple;
+  background-color: $bg-color-primary;
+  color: $color-primary;
   font-size: 16px;
 }
 
 .bottom-nav {
-  background-color: whitesmoke;
+  background-color: $bg-color-secondary;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -27,17 +31,17 @@ body {
   height: 50px;
   border: none;
   outline: none;
-  background-color: whitesmoke;
+  background-color: $bg-color-secondary;
   font-size: 1.2em;
   cursor: pointer;
   transition: font-size 0.3s, background-color 0.1s ease-in-out;
 }
 
 .bottom-nav__button:hover {
-  background-color: lightblue;
+  background-color: $btn-color-hover;
   font-size: 2.5rem;
 }
 
 .bottom-nav__button--active {
-  background-color: lightcoral;
+  background-color: $btn-color-active;
 }
